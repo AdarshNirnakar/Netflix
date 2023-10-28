@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+.banner{
+    position: relative;
+    height: 448px;
+    background-color: rgb(198, 161, 161);
+    width: 100%;
+    margin-top: 50px;  
+    color: white;
+    background-color: blueviolet;
+}
+.banner_image{
+    position: absolute;
+    height: 448px;    
+    width: 100%;
+    
+}
+
+.banner_cont{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    z-index: 50;
+    color: white;
+}
+.Movie_Name{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.discription{
+    font-size: 0.8rem;
+    max-width: 360px;
+}
+.banner__fadebottom{
+    height: 7.4rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37,37,0.61),
+        #111
+    );
+    position: relative;
+    top: 330px;    
+}
+.list{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    border-radius: 0.2vw;
+    padding-top: 0.5rem;
+    background-color: rgba(51,51,51,0.5);
+    padding-bottom: 0.5rem;
+}
+.play{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    border-radius: 0.2vw;
+    padding-top: 0.5rem;
+    background-color: rgba(51,51,51,0.5);
+    padding-bottom: 0.5rem;
+
+}
+.play:hover{
+    color: #111;
+    background-color: white;
+    transition: all 0.2s;
+}
+.list:hover{
+    color: black;
+    background-color: #fff;
+    transition: all 0.2s;
+}
